@@ -28,3 +28,8 @@
 3. load the `BlogPage` & `PostPage` components lazily
 4. use the `lazy()` fonction imported from `react`
 5. wrap the `<BlogPage>` & `<PostPage>` components with the `<Suspense>` component imported from `react`
+
+## 2. Building the Code For Production
+
+1. in the terminal, execute `npm run build`
+2. a `build` folder is created & ready to be rendered
