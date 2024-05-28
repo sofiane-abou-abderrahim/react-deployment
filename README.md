@@ -20,3 +20,11 @@
 2. run `npm start`
 3. create a `README.md` file
 4. create a `.gitignore` file
+
+## 1. Adding Lazy Loading
+
+1. in `App.js`, in order to load the `BlogPage` lazily, remove the `import` of the `BlogPage` & the `PostPage`
+2. load the `loader`lazily by using the `import()` function
+3. load the `BlogPage` & `PostPage` components lazily
+4. use the `lazy()` fonction imported from `react`
+5. wrap the `<BlogPage>` & `<PostPage>` components with the `<Suspense>` component imported from `react`
