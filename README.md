@@ -33,3 +33,12 @@
 
 1. in the terminal, execute `npm run build`
 2. a `build` folder is created & ready to be rendered
+
+## 3. Deployment Example
+
+1. in Firebase Hosting, create a new project named `react-deployment-demo` for example
+2. in your terminal, run
+   1. `npm install -g firebase-tools`
+   2. `firebase login`
+   3. `firebase init`
+   4. `firebase deploy`
